@@ -15,7 +15,7 @@ releace: 20240703 version: 1.0.0
 5. 時間帯別空き状況
 6. ここでこの[script](https://github.com/kamotetu/matumoto_tennis_reservation_to_tyouseisan/blob/master/matumoto_tennis_reservation_to_tyouseisan.js)をコンソールに貼り付けて実行
 7. 出力された予約可能時間帯コピー
-8. 調整さん(https://chouseisan.com/)の日程候補フォームに貼り付け
+8. [調整さん](https://chouseisan.com/)の日程候補フォームに貼り付け
 9. 調整してスケジュール作成
 
 ### Let's Enjoy Tennis!!
