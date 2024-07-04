@@ -129,25 +129,25 @@ Object.keys(new_dates).forEach(function (key) {
 
 var string = '';
 //y/m/d
-Object.keys(ymds).forEach(function (key) {
-    var times = ymds[key];
-    Object.keys(times).forEach(function (time_key) {
-        var time = times[time_key];
-        var place_array = [];
-        Object.keys(time.places).forEach(function (place_key) {
-            var place_name = time.places[place_key].name;
-            if (!time.places[place_key].can_reservation) {
-                place_name += '(当日予約)';
-            }
-            place_array.push(place_name);
-        });
-        var child_string = time.ymd_string + '(' + time.week + ') ' + time.from_string + '〜' + '(' + place_array.join(',') + ')';
-        string += child_string + '\n';
-    });
-});
+// Object.keys(ymds).forEach(function (key) {
+//     var times = ymds[key];
+//     Object.keys(times).forEach(function (time_key) {
+//         var time = times[time_key];
+//         var place_array = [];
+//         Object.keys(time.places).forEach(function (place_key) {
+//             var place_name = time.places[place_key].name;
+//             if (!time.places[place_key].can_reservation) {
+//                 place_name += '(当日予約)';
+//             }
+//             place_array.push(place_name);
+//         });
+//         var child_string = time.ymd_string + '(' + time.week + ') ' + time.from_string + '〜' + '(' + place_array.join(',') + ')';
+//         string += child_string + '\n';
+//     });
+// });
 
 
-string += '----------------------------------------------\n';
+// string += '----------------------------------------------\n';
 
 //m/d
 Object.keys(ymds).forEach(function (key) {
