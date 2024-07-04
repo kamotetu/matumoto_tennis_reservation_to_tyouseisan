@@ -14,7 +14,7 @@ releace: 20240703 version: 1.0.0
 2. 施設検索
 3. 施設別空き状況
 4. 時間帯別空き状況
-5. ここでこのscriptをコンソールに貼り付けて実行
+5. ここでこの[script](https://github.com/kamotetu/matumoto_tennis_reservation_to_tyouseisan/blob/master/matumoto_tennis_reservation_to_tyouseisan.js)をコンソールに貼り付けて実行
 6. 調整さん(https://chouseisan.com/)の日程候補フォームに貼り付け
 7. 調整してスケジュール作成
 
